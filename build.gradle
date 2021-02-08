@@ -17,6 +17,7 @@ ext.isRelease = hasProperty('release')
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.f2prateek.javafmt'
+apply plugin: 'maven-publish'
 
 android {
   compileSdkVersion 29
